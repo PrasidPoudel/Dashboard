@@ -52,7 +52,6 @@ img {
     flex: 1;
 }
 .item {
-    height: 210px;
     border-radius: 40px;
     background-color: white;
     color: black;
@@ -70,7 +69,7 @@ img {
 .emoji-collection {
     margin-top: 15px;
     display: flex;
-    margin-left: 70%;
+    margin-left: 73%;
     gap: 8px;
 }
 .announcements-container {
