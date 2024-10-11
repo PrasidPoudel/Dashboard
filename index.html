@@ -1,57 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <div class="main-container">
         <div class="dashboard">
-            <div class="board">DashBoard</div>
-            <div class="profile">Profile</div>
-            <div class="message">Message</div>
-            <div class="history">History</div>
-            <div class="task">Task</div>
-            <div class="community">Communities</div>
+            <div class="board"><img src="./img/view-dashboard.svg">DashBoard</div>
+            <div class="home"><img src="./img/home.svg" alt="">Home</div>
+            <div class="profile"><img src="./img/account.svg" alt="">Profile</div>
+            <div class="message"><img src="./img/message-badge.svg" alt="">Message</div>
+            <div class="history"><img src="./img/history.svg" alt="">History</div>
+            <div class="task"><img src="./img/file-multiple.svg" alt="">Task</div>
+            <div class="community"><img src="./img/account-group.svg" alt="">Communities</div>
             <br><br>
-            <div class="settings">Settings</div>
-            <div class="support">Support</div>
-            <div class="privacy">Privacy</div>
+            <div class="settings"><img src="./img/cog.svg" alt="">Settings</div>
+            <div class="support"><img src="./img/help-box.svg" alt="">Support</div>
+            <div class="privacy"> <img src="./img/shield-check.svg" alt="">Privacy</div>
         </div>
-        <div class="user-info">
-            <div class="search">
-                <div class="googles"></div>
-                <input type="text">
-                <img src="./img/bell-ring.svg" alt="" style="height: 20px; width: 20px;">
-                <!-- Put a image here -->
-                <img src="" alt="">  
-                <div class="name">Prasid Poudel</div>
+        <div class="navbar" style="background-color: white; height: 150px;">
+            <div class="navbar-1 navbar-item1" style="margin-left: 16px;">
+                <div class="search"><img src="./img/magnify.svg"> <input type="text"
+                        style="width: 50%; border-radius: 8px; padding: 8px; height: max-content;"></div>
+                <img src="./img/bell-ring.svg" style="margin-right: 32px;">
+                <img src="./img/cat.jpg" class="jpt" alt="" height="20px" width="70px" style="border-radius: 100%;">
+                <div class="name" style="margin-top: 10px; margin-left: 15px;font-weight: bold; font-size: 18px;">PraSid</div>
             </div>
-            <div class="flexit-down">
-                <!-- Image with Hi there, down there name -->
-                <div class="photo-admin-info"></div>
-                <div class="buttons">
-                    <button class="new btn">New</button>
-                    <button class="upload btn">Upload</button>
-                    <button class="share btn">Share</button>
+            <div class="navbar-2 navbar-item2" style="margin-top: 25px; margin-left: 16px;">
+                <img src="./img/cat.jpg" class="cat" alt="" height="70px" width="70px" style="border-radius: 100%;">
+                <div class="intro" style="margin-top: 7px; margin-left: 9px;">
+                    <div class="intro1">Hi, There</div>
+                    <div class="intro2">Prasid Poudel </div>
+                </div>
+                <div class="group">
+                    <button class="new">New</button>
+                    <button class="upload">Upload</button>
+                    <button class="share">Share</button>
                 </div>
             </div>
         </div>
-        <div class="project-info">
-            <div class="projects">
-                <div class="project-user">Your Projects</div>
-                <div class="cool-containe"></div>
-                <div class="less-cool-contain"></div>
-                <div class="Announcement-contain"></div>
-                <div class="impossible-contain"></div>
-                <div class="easy-contain"></div>
-                <div class="ad-blocker-contain"></div>
-                <div class="money-contain"></div>
-                <div class="trending-contain"></div>
+        <div class="content-container">
+            <div class="projects-container">
+                <div id="project">My Projects</div>
+                <div class="projects">
+                    <div class="project-item1 item">
+                        <h3>Super Cool Projects</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt veritatis earum aspernatur
+                            non dolorem quaerat odit quibusdam ad quo. Delectus autem nulla sint, molestiae
+                            exercitationem labore tempora fugit animi cupiditate?</p>
+                        <div class="emoji-collection">
+                            <img src="./img/star-plus-outline.svg" alt="">
+                            <img src="./img/eye-plus.svg" alt="">
+                            <img src="./img/share-variant.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="project-item2 item">
+                        <h3>Less Cool Projects</h3>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+                            est laborum. Aliquam facilis quos nam dignissimos voluptatem magni doloremque harum quidem.</p>
+                        <div class="emoji-collection">
+                            <img src="./img/star-plus-outline.svg" alt="">
+                            <img src="./img/eye-plus.svg" alt="">
+                            <img src="./img/share-variant.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="project-item3 item">
+                        <h3>Impossible App</h3>
+                        <p>Nulla facilisi. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                             laudantium. At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                        <div class="emoji-collection">
+                            <img src="./img/star-plus-outline.svg" alt="">
+                            <img src="./img/eye-plus.svg" alt="">
+                            <img src="./img/share-variant.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="project-item4 item">
+                        <h3>Easy Peasy App</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                        <div class="emoji-collection">
+                            <img src="./img/star-plus-outline.svg" alt="">
+                            <img src="./img/eye-plus.svg" alt="">
+                            <img src="./img/share-variant.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="project-item5 item">
+                        <h3>Ad Blocker</h3>
+                        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur? 
+                            Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                        <div class="emoji-collection">
+                            <img src="./img/star-plus-outline.svg" alt="">
+                            <img src="./img/eye-plus.svg" alt="">
+                            <img src="./img/share-variant.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="project-item6 item">
+                        <h3>Money Maker</h3>
+                        <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptat
+                            es. Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+                        </p>
+                        <div class="emoji-collection">
+                            <img src="./img/star-plus-outline.svg" alt="">
+                            <img src="./img/eye-plus.svg" alt="">
+                            <img src="./img/share-variant.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-container">
+                <div class="announce-news">
+                    <div class="project">Announcement</div>
+                    <div class="announcements-container">
+                        <div class="item-announce-1">
+                            <h4>Site Maintainance</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe magni,
+                                ad magnam blanditiis dolores facilis. Totam pariatur quod iure quibusdam quia temporibus
+                                iusto accusamus corporis non. Facere aliquam quis dolor?...</p>
+                            <hr>
+                        </div>
+                        <div class="item-announce-2">
+                            <h4>Community Share Day</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo asperiores accusamus quas
+                                illo delectus
+                                laborum quia unde deserunt ipsa exercitationem, adipisci suscipit molestias numquam
+                                tempora quae error. Sapiente, tempora sunt...</p>
+                            <hr>
+                        </div>
+                        <div class="item-announce-3">
+                            <h4>Updated Privacy Policy</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium dignissimos enim
+                                rerum
+                                dolore commodi reiciendis eius libero debitis, quo, esse velit placeat. Aliquam laborum
+                                quis quae illo, iure eveniet veritatis...</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending-news" style="margin-top: 40px;">
+                    <div class="trending">Trending</div>
+                    <div class="trending-container">
+                        <div class="trending-item1 trends">
+                            <img src="./img/naruto1.jpg" class="naruto" alt="">
+                            <div class="rand">I hate my life</div>
+                        </div>
+                        <div class="trending-item2 trends">
+                            <img src="./img/naruto2.jpg" class="naruto" alt="">
+                            <div class="rand">How to center a div</div>
+                        </div>
+                        <div class="trending-item3 trends">
+                            <img src="./img/naruto3.jpg" class="naruto">
+                            <div class="rand">I am at my lowest</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
