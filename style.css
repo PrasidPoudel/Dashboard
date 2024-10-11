@@ -1,0 +1,163 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+    height: 100%;
+}
+.dashboard {
+    font-family: "Roboto",sans-serif;
+    color: white;
+    background-color: #2885f7;
+    font-size: 26px;
+    padding: 15px;
+    grid-row: 1/4;
+}
+.dashboard img {
+    margin-right: 10px;
+}
+img {
+    height: 22px;
+    width: 20px;
+}
+.dashboard>*{
+    margin-bottom: 7px;
+}
+.navbar-1 {
+    display: flex;
+}
+.navbar-1 div {
+    flex: 1;
+}
+.content-container {
+    background-color: #cbd5e1;
+    gap: 25px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.projects {
+    margin-left: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    gap: 15px 15px;
+}
+.cat {
+    height: 70px;
+    width: 70px;
+}
+.navbar-2{
+    display: flex;
+}
+.navbar-2 div {
+    flex: 1;
+}
+.item {
+    height: 210px;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+    padding: 12px;
+    border-left: 8px solid yellow;
+}
+.jpt {
+    height: 37px;
+    width: 50px;
+}
+.news-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.emoji-collection {
+    margin-top: 15px;
+    display: flex;
+    margin-left: 80%;
+    gap: 8px;
+}
+.announcements-container {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 40px;
+    background-color: white;
+    padding: 15px;
+    margin-right: 28px;
+}
+img.naruto{
+    height: 70px;
+    border-radius: 100%;
+    width: 70px;
+}
+.trends {
+    display: flex;
+}
+span {
+    text-align: center;
+    margin-bottom: 50%;
+}
+.trending-container {
+    width: fit-content;
+    border-radius: 30px;
+    background-color: white;
+    margin-right: 28px;
+}
+.item p {
+    font-size: 18px;
+}
+.trends * {
+    align-self: center;
+    justify-content: center;
+}
+.trends div{
+    margin-left: 10px;
+}
+.trends {
+    padding: 16px;
+}
+button {
+    height: 40px;
+    width: 120px;
+    border-radius: 29px;
+    background-color: blue;
+    color: white;
+    font-size: 22px;
+    padding: 7px;
+}
+.upload,.share {
+    margin-left: 20px;
+}
+#project {
+    margin-left: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.project {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    margin-left: 23px;
+}
+.trending{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    margin-left: 23px;
+}
+input:focus {
+    outline: 0;
+    border: 3px solid blue;
+    border-radius: 6px;
+}
+.dashboard img {
+    height: 35px;
+    width: 50px;
+}
+.board {
+    margin-bottom: 30px;
+}
+.intro1,.intro2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+.board~div {
+    margin-bottom: 10px;
+}
