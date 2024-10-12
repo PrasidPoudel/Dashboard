@@ -69,8 +69,9 @@ img {
 .emoji-collection {
     margin-top: 15px;
     display: flex;
-    margin-left: 73%;
+    justify-content: end;
     gap: 8px;
+    margin-right: 4%;
 }
 .announcements-container {
     height: fit-content;
@@ -113,12 +114,12 @@ span {
 }
 button {
     height: 40px;
-    width: 120px;
-    border-radius: 29px;
+    width: 70px;
+    border-radius: 20px;
     background-color: blue;
     color: white;
-    font-size: 22px;
-    padding: 7px;
+    font-size: 16px;
+    padding: 8px;
 }
 .upload,.share {
     margin-left: 20px;
