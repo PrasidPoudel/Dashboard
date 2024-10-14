@@ -8,7 +8,7 @@
     font-family: "Roboto",sans-serif;
     color: white;
     background-color: #2885f7;
-    font-size: 26px;
+    font-size: 20px;
     padding: 15px;
     grid-row: 1/4;
 }
@@ -52,6 +52,7 @@ img {
     flex: 1;
 }
 .item {
+    display: grid;
     border-radius: 40px;
     background-color: white;
     color: black;
@@ -160,4 +161,13 @@ input:focus {
 }
 .board~div {
     margin-bottom: 10px;
+}
+.sidedash {
+    display: flex;
+}
+.sidedash div {
+    align-self: center;
+}
+.rand {
+    justify-self: center;
 }
